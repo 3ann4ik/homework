@@ -14,15 +14,20 @@
     text-transform: uppercase;
 }
 .r {
-font-style: italic;
-text-decoration: wavy;
-text-overflow: ellipsis;
-text-transform: capitalize;
+    line-height: 35px;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: overline;
+    text-decoration-style: wavy;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    color: rgb(90, 17, 185);
 }
 .t {
+    line-height: 35px;
+    font-size: 20px;
     letter-spacing: 10px;
-    text-decoration: underline;
-    line-break: unset;
+    text-decoration: underline double;
 }
 .y {
 font-size: 40px;
@@ -36,4 +41,5 @@ text-shadow: 10 8 4 #000;
 
 
 }
+
 

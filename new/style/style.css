@@ -1,0 +1,37 @@
+.q {
+    font-family: "Open Sans" sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.w {
+    font-size: 25px;
+    text-decoration: line-through;
+}
+.e {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.r {
+font-style: italic;
+/* Как сделать волнистую линию сверху помогите */
+text-overflow: ellipsis;
+text-transform: capitalize;
+}
+.t {
+    letter-spacing: 10px;
+    text-decoration: underline;
+    line-break: unset;
+}
+.y {
+font-size: 40px;
+text-indent: 40px;
+letter-spacing: 3px;
+word-spacing: 5px;
+white-space: normal;
+text-transform: lowercase;
+text-shadow: 10 8 4 #000;
+    text-shadow: none;
+
+}

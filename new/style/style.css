@@ -22,11 +22,12 @@
     text-overflow: ellipsis;
     text-transform: capitalize;
     color: rgb(90, 17, 185);
+    word-spacing: 30px;
 }
 .t {
     line-height: 35px;
     font-size: 20px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     text-decoration: underline double;
 }
 .y {
@@ -41,5 +42,6 @@ text-shadow: 10 8 4 #000;
 
 
 }
+
 
 

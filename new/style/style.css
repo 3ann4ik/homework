@@ -15,7 +15,7 @@
 }
 .r {
 font-style: italic;
-text-decoration-style: wavy;
+text-decoration: wavy;
 text-overflow: ellipsis;
 text-transform: capitalize;
 }
@@ -36,3 +36,4 @@ text-shadow: 10 8 4 #000;
 
 
 }
+

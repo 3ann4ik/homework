@@ -1,16 +1,3 @@
-body {
-    background: #ffffff;
-    font-size: 25px;
-    margin: 0; /* убираем отступы по умолчанию */
-}
-
-.box {
-    outline: dashed 4px;
-    width: auto;
-    height: 700px;
-    position: relative;
-}
-
 .red {
     display: flex;
     background: red;
@@ -19,10 +6,7 @@ body {
     height: 200px;
     border-radius: 5px;
     outline: dotted 2px;
-    transform: translate(50%, 50%);
-    position: absolute;
-    bottom: 20%;
-    left: 60%;
+    transform: translate(calc(100vw - 250px), calc(100vh - 250px);
 }
 
 .blue {
@@ -32,10 +16,7 @@ body {
     height: 300px;
     border-radius: 5px;
     outline: double 2px;
-    transform: rotate(180deg);
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    transform: translate(calc(100vw - 350px), 0) rotate(180deg);
 }
 
 .green {
@@ -45,8 +26,5 @@ body {
     height: 200px;
     border-radius: 5px;
     outline: dashed 2px;
-    transform: rotate(110deg);
-    position: absolute;
-    bottom: 30%;
-    left: 20%;
+    transform: translate(40vw, 50vh) rotate(110deg);
 }

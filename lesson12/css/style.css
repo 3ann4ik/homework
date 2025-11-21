@@ -1,0 +1,44 @@
+body {
+    background: #1d1d1d;
+    font-size: 24px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background: rgb(71, 70, 70);
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    text-align: center;
+    color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.load {
+    position: absolute;
+    top: -80px;
+    left: -200px;
+    width: 0px;
+    height: 30px;
+    background: white;
+    transition: width 4s;
+}
+
+.text {
+    opacity: 0;
+    transition: opacity 0.3s 4s;
+}
+
+.main:hover .load {
+    width: 800px;
+}
+
+.main:hover .text {
+    opacity: 1;
+}

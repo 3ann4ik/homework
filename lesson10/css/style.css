@@ -1,12 +1,16 @@
 body {
     background: #ffffff;
     font-size: 25px;
+    margin: 0; /* убираем отступы по умолчанию */
 }
+
 .box {
     outline: dashed 4px;
     width: auto;
     height: 700px;
+    position: relative;
 }
+
 .red {
     display: flex;
     background: red;
@@ -15,6 +19,10 @@ body {
     height: 200px;
     border-radius: 5px;
     outline: dotted 2px;
+    transform: translate(50%, 50%);
+    position: absolute;
+    bottom: 20%;
+    left: 60%;
 }
 
 .blue {
@@ -24,6 +32,10 @@ body {
     height: 300px;
     border-radius: 5px;
     outline: double 2px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 .green {
@@ -33,15 +45,8 @@ body {
     height: 200px;
     border-radius: 5px;
     outline: dashed 2px;
-}
-/* остальные свойства */
-.red {
-    transform: translateX(600px) translateY(500px);
-}
-.blue {
-    transform: translateX(815px) translateY(-195px) rotate(180deg);
-}
-.green {
-    transform: translateX(320px) translateY(-400px) rotate(110deg);
-    
+    transform: rotate(110deg);
+    position: absolute;
+    bottom: 30%;
+    left: 20%;
 }

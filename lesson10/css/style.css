@@ -1,0 +1,47 @@
+body {
+    background: #ffffff;
+    font-size: 25px;
+}
+.box {
+    outline: dashed 4px;
+    width: auto;
+    height: 700px;
+}
+.red {
+    display: flex;
+    background: red;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    outline: dotted 2px;
+}
+
+.blue {
+    background: blue;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    outline: double 2px;
+}
+
+.green {
+    background: green;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    outline: dashed 2px;
+}
+/* остальные свойства */
+.red {
+    transform: translateX(600px) translateY(500px);
+}
+.blue {
+    transform: translateX(815px) translateY(-195px) rotate(180deg);
+}
+.green {
+    transform: translateX(320px) translateY(-400px) rotate(110deg);
+    
+}

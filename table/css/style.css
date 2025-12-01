@@ -1,0 +1,17 @@
+body {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+}
+table, caption, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-width: 2px;
+}
+caption {
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: none;
+}
+.clred {
+    color: rgb(255, 0, 0);
+}

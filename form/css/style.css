@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  min-height: 100vh;
+}
+
+.form {
+  border: 3px solid #623;
+  border-radius: 25px;
+  max-width: 350px;
+  width: 100%;
+  padding: 20px 30px;
+}
+
+.form-group {
+  border: none;
+  padding: 0;
+}
+
+.from-group-title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.input,
+.textarea {
+  min-width: 100%;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  border: 2px solid #623;
+  border-radius: 15px;
+  outline: 0;
+}
+
+.textarea {
+  resize: vertical;
+  max-height: 100px;
+}
+
+.checkbox-label {
+  padding-left: 25px;
+
+}
+
+.checkbox {
+  position: absolute;
+  appearance: none;
+  min-width: 17px;
+  min-height: 17px;
+  accent-color: #623;
+  cursor: pointer;
+  outline: none;
+}
+
+.checkbox::after {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  margin-left: -25px;
+  border: 2px solid #623;
+  border-radius: 4px
+}
+
+.checkbox:checked::after {
+  background: url(../images/check-icon.svg) center no-repeat, #623;
+}
+
+.checkbox-text {
+  font-size: 17px;
+}
+
+.button {
+  background-color: rgb(174, 22, 235);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  padding: 3px;
+  margin: 5px;
+  cursor: pointer;
+  transition: opacity 0.25s;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  background-color: #623;
+}
+
+.input:focus-visible {
+  outline: 2px solid #623;
+}
+
+.textarea:focus-visible {
+  outline: 2px solid #623;
+}
+
+.checkbox:focus-visible::after {
+  outline: 2px solid #623;
+}
+
+.button:focus-visible {
+  outline: 3px solid #623;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.textarea:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.checkbox:disabled::after {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

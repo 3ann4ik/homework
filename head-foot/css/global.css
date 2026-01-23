@@ -53,11 +53,20 @@ p {
   text-align: center;
   color: #fff;
   background-color: #3596ed;
-  transition: opacity 0.2s;
+  transition: opacity 0.2s, background-color 0.2s;
 }
 
 .button:hover {
   opacity: 0.8;
+}
+
+.button:not(:disabled):active {
+  background-color: #2d82cd;
+}
+
+.button:disabled {
+  opacity: 0.65;
+  cursor: default;
 }
 
 .section {
@@ -81,4 +90,20 @@ p {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #858e8a;
+}
+
+.text-summary {
+  font-size: 24px;
+  font-family: Oswald, sans-serif;
+  font-weight: 500;
+  line-height: 115%;
+  text-transform: uppercase;
+  color: #2c332f;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 2px solid #3596ed;
+  outline-offset: 1px;
 }

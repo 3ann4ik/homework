@@ -8,7 +8,7 @@
   }
 }
 
-@media (width <= 576px) {
+@media (width <=576px) {
   .air-mag {
     padding-bottom: 80px;
   }
@@ -39,7 +39,7 @@
   }
 }
 
-@media (width <= 768px) {
+@media (width <=768px) {
   .air-mag__description {
     flex-direction: column;
     margin-bottom: 15px;
@@ -56,7 +56,7 @@
   }
 }
 
-@media (width <= 992px) {
+@media (width <=992px) {
   .air-mag__info-wrapper {
     flex-direction: column;
   }
@@ -80,7 +80,7 @@
   }
 }
 
-@media (width <= 992px) {
+@media (width <=992px) {
   .air-mag__info-list {
     gap: 20px;
     max-width: 700px;

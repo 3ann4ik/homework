@@ -8,7 +8,7 @@
   }
 }
 
-@media (width <= 576px) {
+@media (width <=576px) {
   .hero {
     padding-bottom: 80px;
   }
@@ -27,7 +27,7 @@
   }
 }
 
-@media (width <= 768px) and (width > 576px) {
+@media (width <=768px) and (width > 576px) {
   .hero__container {
     padding-top: 20px;
   }
@@ -45,7 +45,7 @@
   }
 }
 
-@media (width <= 768px) {
+@media (width <=768px) {
   .hero__header {
     flex-direction: column;
   }
@@ -78,7 +78,7 @@
   }
 }
 
-@media (width <= 768px) {
+@media (width <=768px) {
   .hero__benefits-item {
     font-size: 14px;
   }
@@ -104,7 +104,7 @@
   }
 }
 
-@media (width <= 768px) {
+@media (width <=768px) {
   .hero__title-accent {
     -webkit-text-stroke: 1.5px var(--accent-color);
   }
